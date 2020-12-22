@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Uniswap is a decentralized protocol for automated token exchange on Ethereum.
-repository: https://github.com/graphprotocol/uniswap-v2-subgraph
+description: Griffin is a decentralized protocol for automated token exchange on Ethereum.
+repository: https://github.com/Griffin-Exchange/griffin-subgraph/tree/uniswap-fork
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: xdai
     source:
-      address: '0xA818b4F111Ccac7AA31D0BCc0806d64F2E0737D7'
+      address: '0xD67f9432DcFFd4eE17cc3bAC793d772d04AB1a42'
       abi: Factory
-      startBlock: 11813490
+      startBlock: 13516176
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
